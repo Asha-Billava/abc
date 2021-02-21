@@ -8,10 +8,7 @@ class Add
 	{
 		//Add obj=new Add();
 		int c,a=50,b=100;
-		DataInputStream in=new DataInputStream(System.in);
-		System.out.println("enter the value for a and b :");
-		a=Integer.parseInt(in.readLine());
-		b=Integer.parseInt(in.readLine());
+		System.out.println("before swaping A is 50 and B is 100:");
 		if(a == b)
 		{
 		System.out.println("both variables are same please give diff values");
@@ -22,7 +19,7 @@ class Add
 		a=b;
 		b=c;
 
-		System.out.println("After swaping a number is:"+a+"\t"+b);
+		System.out.println("After swaping A is:"+a+"B is"+b);
 		}
 		
 	
