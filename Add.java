@@ -7,7 +7,7 @@ class Add
 	public static void main(String args[])throws IOException
 	{
 		//Add obj=new Add();
-		int temp,a=50,b=100;
+		int c,a=50,b=100;
 		DataInputStream in=new DataInputStream(System.in);
 		System.out.println("enter the value for a and b :");
 		a=Integer.parseInt(in.readLine());
@@ -18,9 +18,9 @@ class Add
 		}
 		else
 		{
-		temp=a;
+		c=a;
 		a=b;
-		b=temp;
+		b=c;
 
 		System.out.println("After swaping a number is:"+a+"\t"+b);
 		}
