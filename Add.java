@@ -17,7 +17,7 @@ class Add
 		{
 		c=a;
 		a=b;
-		b=c;
+		b==c;
 
 		System.out.println("After swaping A is:"+a+"B is"+b);
 		}
