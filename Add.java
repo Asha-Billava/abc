@@ -11,7 +11,7 @@ class Add
 		System.out.println("before swaping A is 50 and B is 100:");
 		if(a == b)
 		{
-		System.out.println("both variables are same please give diff value");
+		System.out.println("both variables are same please give different values");
 		}
 		else
 		{
